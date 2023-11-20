@@ -13,8 +13,19 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%,-50%);
-  color: #ffffff;
+  color: #ffff;
   cursor: pointer;
+}
+
+.h2_flaws {
+  position: relative;
+  text-align: center;
+  font-size: 3rem;
+}
+
+.h3_debut {
+  text-align: center;
+  font-size: 1.2rem;
 }
 
 .img_home {
