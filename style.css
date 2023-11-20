@@ -1,0 +1,50 @@
+
+body {
+    background-color: #f0efe8;
+    font-family: 'Cormorant Garamond', serif;
+    color: #7998B4;
+    margin: 0;
+}
+
+.h2 {
+  text-align: center;
+  font-size: 2rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.img_home {
+  height: 100%;
+  width: 100%;
+  display: block;
+  object-fit: cover;
+  display: flex;
+}
+
+
+
+.header_navbar {
+    width: 100%;
+    align-items: center;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: auto;
+    padding: 1px;
+  }
+
+
+.navbar li a:hover {
+    background-color: white;
+    padding: 10px 20px;
+  }
