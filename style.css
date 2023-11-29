@@ -6,27 +6,150 @@ body {
     margin: 0;
 }
 
-.h2 {
+
+a {
+  text-decoration: none;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1em;
+}
+
+nav {
+  overflow: hidden;
+  align-items: center;
+}
+
+
+.nav-links a {
+  text-decoration: none;
+  color: #7998B4;
+  font-family: 'Cormorant Garamond', serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    text-align: center;
+    color: #7998B4;
+ }
+
+.menu {
+  display: flex;
+  font-size: 16px;
+  gap: 1em;
+}
+
+.menu li:hover {
+  transition: 0.3s ease;
+}
+
+.menu li {
+  padding: 5px 14px;
+}
+
+
+
+.menu h3 {
+  font-size: 17px;
+}
+
+
+
+
+
+
+.wae h2 {
   text-align: center;
-  font-size: 2rem;
+  font-size: 6rem;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%,-50%);
   color: #ffff;
   cursor: pointer;
+  text-shadow: 2px 2px 4px #000000;
 }
 
-.h2_flaws {
+
+
+.slideshow-container {
+  max-width: 100%;
+  position: relative;
+  margin: auto;
+}
+
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {
+    opacity: .4
+  }
+  to {
+    opacity: 1
+  }
+}
+
+.h2 {
+}
+
+
+
+.reveal{
+  position: relative;
+  transform: translateY(150px);
+  opacity: 0;
+  transition: 2s all ease;
+}
+.reveal.active{
+  transform: translateY(0);
+  opacity: 1;
+}
+
+
+
+
+
+.flawsandall {
+  display: flex;
+  flex-wrap: wrap;
+  flex-basis: 49%;
+  padding: 1%;
+  flex-direction: column;
+}
+
+
+.flawsandall h2{
   position: relative;
   text-align: center;
-  font-size: 3rem;
+  font-size: 5rem;
+  grid-area: content;
+  display: grid;
 }
 
-.h3_debut {
+.flawsandall h3 {
   text-align: center;
   font-size: 1.2rem;
 }
+
+.flawsandall img {
+  display: block;
+  width: 80%;
+  height: 950px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
 
 .img_home {
   height: 100%;
@@ -34,28 +157,18 @@ body {
   display: block;
   object-fit: cover;
   display: flex;
+  
 }
 
 
 
-.header_navbar {
-    width: 100%;
-    align-items: center;
+
+
+.spotify iframe {
+  border-radius: 12px;
+  width: 100%;
+  height: 500px;
+  display: block;
+  margin: 0 auto;
 }
 
-.navbar {
-    display: flex;
-    justify-content: center;
-    flex-flow: row wrap;
-    align-items: center;
-    text-align: center;
-    width: 100%;
-    height: auto;
-    padding: 1px;
-  }
-
-
-.navbar li a:hover {
-    background-color: white;
-    padding: 10px 20px;
-  }
