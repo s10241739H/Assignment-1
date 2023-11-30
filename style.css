@@ -20,6 +20,7 @@ a {
 nav {
   overflow: hidden;
   align-items: center;
+
 }
 
 
@@ -29,13 +30,19 @@ nav {
   font-family: 'Cormorant Garamond', serif;
 }
 
+.nav-links a:hover {
+  color: #345678;
+}
+
 .navbar {
+ 
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     padding: 5px;
     text-align: center;
     color: #7998B4;
+    height: 45px;
  }
 
 .menu {
@@ -56,6 +63,7 @@ nav {
 
 .menu h3 {
   font-size: 17px;
+  text-align: center;
 }
 
 
@@ -70,7 +78,7 @@ nav {
   top: 50%;
   left: 50%;
   transform: translate(-50%,-50%);
-  color: #ffff;
+  color: #f0efe8;
   cursor: pointer;
   text-shadow: 2px 2px 4px #000000;
 }
@@ -100,14 +108,22 @@ nav {
   }
 }
 
-.h2 {
+
+
+.img_home {
+  height: 100%;
+  width: 100%;
+  display: block;
+  object-fit: cover;
+  display: flex;
 }
+
 
 
 
 .reveal{
   position: relative;
-  transform: translateY(150px);
+  transform: translateY(80px);
   opacity: 0;
   transition: 2s all ease;
 }
@@ -151,17 +167,6 @@ nav {
 }
 
 
-.img_home {
-  height: 100%;
-  width: 100%;
-  display: block;
-  object-fit: cover;
-  display: flex;
-  
-}
-
-
-
 
 
 .spotify iframe {
@@ -172,3 +177,118 @@ nav {
   margin: 0 auto;
 }
 
+
+.hr1 {
+  border: 2px solid #7998B4;
+  width: 85%;
+}
+
+.shop {
+ display: flex;
+ justify-content: space-evenly;
+ align-items: center;
+
+}
+
+
+.shop h2 {
+  position: relative;
+  flex-wrap: wrap;
+  padding: 7%;
+  font-size: 2rem;
+}
+
+.button {
+
+  display: inline-block;
+  padding: 10px 20px;
+  text-decoration: none;
+  background-color: #345678; /* Set your desired background color */
+  color: #ffffff; /* Set your desired text color */
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1rem;
+}
+
+.button:hover {
+  background-color: #123456; /* Set your desired background color on hover */
+}
+
+
+
+
+
+
+.tour h2 {
+  font-size: 3rem;
+  display: flex;
+  justify-content: center;
+}
+
+.tours-container {
+  width: 100%;
+  height: auto;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  cursor: pointer;
+}
+
+.tours-container p {
+text-align: center;
+}
+
+.tours-container h3 {
+  font-size: 1.5rem;
+}
+
+
+.hr2 {
+  border: 1px solid #7998B4;
+  width: 40%;
+}
+
+.staytuned {
+  text-decoration: none;
+  color: #345678;
+}
+
+
+
+footer {
+  text-align: center;
+  color: black;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 0.75rem;
+}
+
+footer a {
+  color: inherit;
+  border: none;
+  padding-top: 1rem;
+  margin: 0 5px;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+}
+
+.fa {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  }
+  
+
+.fa a {
+  margin: 0 5px;
+}
