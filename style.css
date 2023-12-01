@@ -177,6 +177,11 @@ nav {
   width: 85%;
 }
 
+.hr3 {
+  border: 2px solid #123456;
+  width: 85%;
+}
+
 .shop {
  display: flex;
  justify-content: space-evenly;
@@ -348,12 +353,12 @@ text-align: center;
 .aboutcontainer {
   display: flex;
   background-color: #7998B4;
-  padding: 20px; /* Adjust as needed */
+  padding: 20px; 
 }
 
 .aboutpara1 {
   flex: 1;
-  padding: 20px; /* Adjust as needed */
+  padding: 50px;
   color: #f0efe8;
   font-size: 1.5rem;
   display: flex;
@@ -373,6 +378,77 @@ text-align: center;
   width: 600px;
   height: 700px;
 }
+
+
+
+.aboutcontainer2 {
+  display: flex;
+      background-color: #7998B4;
+      padding: 20px;
+}
+
+.aboutcontainer2 a {
+  text-decoration: none;
+  color: #f0efe8;
+  padding: 20px;
+  color: #f0efe8;
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+
+.aboutimage2 {
+  flex: 0.7;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.aboutimage2 img {
+  padding: 50px;
+  max-width: 100%;
+  height: auto;
+  width: 600px;
+  height: 700px;
+}
+
+.aboutpara2 {
+  flex: 1;
+      padding: 20px;
+      color: #f0efe8;
+      font-size: 1.5rem;
+      display: flex;
+      align-items: center; 
+}
+
+
+.images-end {
+  background-color: #7998B4;
+  padding: 10px;
+  box-sizing: border-box;
+  text-align: center; /* Center the content horizontally */
+}
+
+.images-end-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; /* Ensure space between items */
+}
+
+.images-end img {
+  flex-basis: 48%; /* Adjust as needed */
+  max-width: 48%; /* Adjust as needed */
+  height: auto;
+  margin: 1%; /* Adjust as needed */
+}
+
+.images-end h2 {
+  width: 100%;
+  text-align: center;
+  color: #123456;
+  font-size: 2rem;
+}
+
 
 footer {
   text-align: center;
