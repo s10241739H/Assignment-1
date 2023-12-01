@@ -14,6 +14,12 @@ function displayImagesSlider() {
   setTimeout(displayImagesSlider, 4000);
 }
 
+
+
+
+
+
+
 function displayImagesOpacity() {
   var images = document.querySelectorAll(".merchimg img");
 
@@ -26,6 +32,8 @@ window.addEventListener("load", function () {
   displayImagesOpacity();
   displayImagesSlider();
 });
+
+
 
 function reveal() {
   var reveals = document.querySelectorAll(".reveal");

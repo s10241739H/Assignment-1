@@ -202,8 +202,8 @@ nav {
   display: inline-block;
   padding: 10px 20px;
   text-decoration: none;
-  background-color: #345678; /* Set your desired background color */
-  color: #ffffff; /* Set your desired text color */
+  background-color: #345678; 
+  color: #ffffff; 
   border-radius: 5px;
   transition: background-color 0.3s ease;
   font-family: 'Cormorant Garamond', serif;
@@ -211,7 +211,7 @@ nav {
 }
 
 .button:hover {
-  background-color: #123456; /* Set your desired background color on hover */
+  background-color: #123456; 
 }
 
 .homestore {
@@ -426,20 +426,20 @@ text-align: center;
   background-color: #7998B4;
   padding: 10px;
   box-sizing: border-box;
-  text-align: center; /* Center the content horizontally */
+  text-align: center; 
 }
 
 .images-end-container {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between; /* Ensure space between items */
+  justify-content: space-between; 
 }
 
 .images-end img {
-  flex-basis: 48%; /* Adjust as needed */
-  max-width: 48%; /* Adjust as needed */
+  flex-basis: 48%; 
+  max-width: 48%; 
   height: auto;
-  margin: 1%; /* Adjust as needed */
+  margin: 1%; 
 }
 
 .images-end h2 {
